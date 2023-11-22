@@ -378,6 +378,8 @@ def main():
             # Generate report for the selected country
             generate_country_report(country_data_for_report)
 
+# Add this line to expose the app as a server
+server = app.server
 
 if __name__ == "__main__":
     main()
